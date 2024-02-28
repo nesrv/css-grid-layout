@@ -43,10 +43,14 @@
           <h1> Программист </h1>
         </div>
       </a>
+
     </div>
     <div class="block-btn-input-reg">
       <button class="btn-input-reg"> Вход/Регистрация</button>
     </div>
+    <nav class="reg-menu-header">
+      Главная Все курсы Расписания Преподаватели Онлайн обучение О центре
+    </nav>
     <div class="container">
       <input type="checkbox" id="burger">
       <label for="burger"></label>
@@ -58,9 +62,7 @@
         </ul>
       </nav>
     </div>
-    <nav class="reg-menu-header">
-      Главная Все курсы Расписания Преподаватели Онлайн обучение О центре
-    </nav>
+
 
 
 
@@ -82,8 +84,8 @@
       <h2> 16 800 руб </h2>
       <div class="description-hot-course">Синтаксис, алгоритмы<br> файлы, функции</div>
       <button type="button" class="btn-write-learning">записаться</button>
-
     </section>
+    <div class="duration-course _1"> 40 часов</div>
     <section class="block-hot-courses _2">
       <div class="wrapper-course">
         <img src="img/reactJS.svg" class="img-top-courses" />
@@ -93,28 +95,72 @@
       <div class="description-hot-course">Фронтенд <br> разработка UI</div>
       <button type="button" class="btn-write-learning">записаться</button>
     </section>
-  
-      <section class="block-hot-courses _3">
-        <div class="wrapper-course">
-          <img src="img/reactJS.svg" class="img-top-courses" />
-        </div>
-        <h3> JavaScript <br> Библиотека React.js </h3>
-        <h2> 18 800 руб </h2>
-        <div class="description-hot-course">Фронтенд <br> разработка UI</div>
-        <button type="button" class="btn-write-learning">записаться</button>
-      </section>
-    <section class="block-hot-courses _4">
+    <div class="duration-course _2"> 40 часов</div>
+    <section class="block-hot-courses _3">
       <div class="wrapper-course">
-        <img src="img/reactJS.svg" class="img-top-courses" />
+        <img src="img/MicrosoftExcel.svg" class="img-top-courses" />
       </div>
-      <h3> JavaScript <br> Библиотека React.js </h3>
-      <h2> 18 800 руб </h2>
-      <div class="description-hot-course">Фронтенд <br> разработка UI</div>
+      <h3> Microsoft Excel <br> Уровень 2 </h3>
+      <h2> 8800 руб </h2>
+      <div class="description-hot-course">Расширенные возможности <br> Сводные таблицы </div>
       <button type="button" class="btn-write-learning">записаться</button>
     </section>
-  
-    </main>
+    <div class="duration-course _3"> 24 часа</div>
+    <section class="block-hot-courses _4">
+      <div class="wrapper-course">
+        <img src="img/flask.svg" class="img-top-courses" />
+      </div>
+      <h3> Веб-разработка <br> на Python </h3>
+      <h2> 18 800 руб </h2>
+      <div class="description-hot-course">Создание приложений <br> Проектирование REST API</div>
+      <button type="button" class="btn-write-learning">записаться</button>
+    </section>
+    <div class="duration-course _4"> 40 часов</div>
+    <section class="block-hot-courses _5">
+      <div class="wrapper-course">
+        <img src="img/blender3D.png" class="img-top-courses" />
+      </div>
+      <h3> 3D-моделлер <br> базовый уровень </h3>
+      <h2> 16800 руб</h2>
+      <div class="description-hot-course">Моделлинг<br> Визуализация</div>
+      <button type="button" class="btn-write-learning">записаться</button>
+    </section>
+    <div class="duration-course _5"> 40 часов</div>
+  </main>
+  <div class="wrapper-best-trainers">
+    <section class="best-trainers">
 
+      <div class="block-circle">
+        <h1> КОМАНДА <br> ЛУЧШИХ <br> ТРЕНЕРОВ</h1>
+        <hr>
+      </div>
+      <div class="block-trainer middle-1">
+        <img src="img/Karepov-Dmitry.png" class="img-best-trainer" />
+        <h4> Карепов Дмитрий Владимирович </h4>
+        <h5> 3D-дженералист, дизайнер </h5>
+      </div>
+      <div class="block-trainer right-1">
+        <img src="img/Serov-Nickolay.png" class="img-best-trainer" />
+        <h4> Серов Николай Евгеньевич </h4>
+        <h5> фулстек-разработчик </h5>
+      </div>
+      <div class="block-trainer left-2">
+        <img src="img/Anna-Tok.png" class="img-best-trainer" />
+        <h4> Ток Анна Владимировна </h4>
+        <h5> cпециалист по Excel-автоматизации</h5>
+      </div>
+      <div class="block-trainer middle-2">
+        <img src="img/Lobachov-Rostislav.png" class="img-best-trainer" />
+        <h4> Лобачев Ростислав Сергеевич </h4>
+        <h5> фулстек-разработчик</h5>
+      </div>
+      <div class="block-trainer right-2">
+        <img src="img/Kozlov-Ruslan.png" class="img-best-trainer" />
+        <h4> Козлов Руслан Юрьевич </h4>
+        <h5> инженер-программист схемотехник</h5>
+      </div>
+    </section>
+  </div>
   <footer>
 
     <div class="footer-violet-stripe">
@@ -125,9 +171,10 @@
       <img src="img/instagram.svg" class="img-social-footer" />
 
     </div>
-    <div class="footer-phones">
+    <div class="footer-phones"> 
       <img src="img/phone.svg" class="img-footer-phone" />
-      8 900 245-03-11, 8 900 287 62-50
+      Частным лицам +7 (900) 245-03-11
+     <img src="img/phone.svg" class="img-footer-phone" /> компаниям +7 (900) 287 62-50
     </div>
     <div class="footer-blue-stripe">
       АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ЦЕНТР ПРОФЕССИОНАЛЬНОЙ ОРИЕНТАЦИИ "ПРОФЕССИИ БУДУЩЕГО" <br>
